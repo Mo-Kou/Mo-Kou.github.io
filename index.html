@@ -7,13 +7,15 @@
             //the background color of the page
             body {
                 background-color: white;
+                font-family: cursive;
+                color: azure;
             }
             
             // position of star-background
             #star {
                 position: absolute;
                 left: -25px;
-                top: 120px;
+                top: 100px;
             }
             
             // the details of the club
@@ -22,8 +24,8 @@
                 width: 490px;
                 position: absolute;
                 left: 425px;
-                top: 260px;
-                color: black;
+                top: 240px;
+                color: darkgray;
                 text-align: center;
                 margin: 10px;
             }
@@ -50,12 +52,26 @@
             #songs {
                 position: absolute;
                 background-color: white;
-                color: darkred;
                 left: 425px;
-                bottom:-490px;
+                bottom:-470px;
                 width: 469px;
                 margin: 15px;
                 text-align: center;
+            }
+            
+            #table-contents {
+                left: px;
+                top: px;
+            }
+            
+            #ways-help {
+                top: px;
+                left: px;
+                padding: 5px;
+            }
+            
+            strong {
+                color: magenta;
             }
         </style>
     </head>
@@ -71,12 +87,12 @@
         </div>
         
         <!--the table of contents: details, songs et.cetera-->
-        <div id = "table">
-            <ul>
-                <li>The details of the club</li>
-                <li>Some Christian songs</li>
-                <li></li>
-            </ul>
+        <div id = "table-contents">
+            <ol>
+                <li><a href = "#headi">The details of the club</a></li>
+                <li><a href = "#songs">Some Christian songs</a></li>
+                <li><a href = "#ways-help">Ways to help the community</a></li>
+            </ol>
         </div>
         
         <!--the details of the club: time, where, and what's happening-->
@@ -89,10 +105,39 @@
         <!--The link to the club list and times-->
         <p><a href="https://docs.google.com/viewerng/viewer?url=https://www.lcps.org//cms/lib/VA01000195/Centricity/Domain/17347/2019-20+Club+Poster.pdf">For more information about the club, click here:</a></p>
         </div>
-        <div>
-            
+        
+        <!--Ways to help-->
+        <div id = "ways-help">
+            <p>These are some ways to help the spiritual community by:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sharing the Gospel</th>
+                        <th>Praying</th>
+                        <th>Giving additional Support (Optional)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Talk with your friends about God</th>
+                        <th>Share with your family members (If they don't know Christ yet)</th>
+                        <th>Recommend the bible to all sorts of people you know</th>
+                        <th>Create unique ways to share God's good news with the <strong>WORLD!!!</strong></th>
+                    </tr>
+                    <tr>
+                        <th>Pray that everybody around the <strong>world</strong> will all eventually be able to know Christ in their own way</th>
+                        <th>Pray for the <strong>physically challenged</strong>, and that they will renew their relationship with God</th>
+                        <th>Pray for <strong>yourself</strong>, so that you will overcome any challenges in your life</th>
+                        <th>Pray for your <strong>friends and family</strong> that they will repent and turn towards God whenever they have sinned</th>
+                    </tr>
+                    <tr>
+                        <th>Help the people in poverty by giving money, food, and hope to all that that have lost it</th>
+                        <th>Invite people to go to church and worship together with you</th>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-            <br><br><br>
+        
         <!--The links to the songs-->
         <div id="songs">
             <p>Here are some songs to remember who God is, and why we need him.</p>
