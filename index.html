@@ -9,9 +9,13 @@
                 background-color: white;
                 font-family: cursive;
                 color: azure;
+                font-size: 20px;
             }
             
             // the details of the club
+            .detailyStuff {
+                text-align: center;
+            }
             #headi {
                 background-color: white;
                 width: 490px;
@@ -41,6 +45,9 @@
             }
             
             // links about songs
+            .happySong {
+                text-align: center;
+            }
             #songs {
                 position: absolute;
                 background-color: white;
@@ -49,33 +56,43 @@
                 text-align: center;
             }
             
+            // the table of contents
+            .tableyContent {
+                text-align: center;
+            }
             #table-contents {
-                left: px;
-                top: px;
+                line-height: 5px;
             }
             
+            // different ways to help 
+            .wayHlp {
+                text-align: center;
+            }
             #ways-help {
-                top: px;
-                left: px;
+                font-family: sans-serif;
                 padding: 5px;
             }
             
+            // all bold tags
             strong {
                 color: magenta;
             }
         </style>
     </head>
     <body background="http://clipart-library.com/images/ki8ne875T.jpg">
-        <div class = "headyheady">
         
             <!--The header, or start-->
+        <div class = "headyheady">
             <div class = "heady">
                 <h1><em>Get ready for...</em></h1>
                 <h2><em>the good news of the lord!</em></h2>
                 <h3><em>featuring: the FCA club of Riverbend Middle School</em></h3>
             </div>
+        </div>    
+            
             <!--the table of contents: details, songs et.cetera-->
-            <div id = "table-contents">
+       <div class = "tableyContent">     
+        <div id = "table-contents">
                 <h2>The table of Contents<h2>
                     <ol>
                         <li><a href = "#headi">The details of the club </a></li>
@@ -83,8 +100,10 @@
                         <li><a href = "#ways-help">Ways to help the community</a></li>
                     </ol>
             </div>
-        
+        </div>
+            
             <!--the details of the club: time, where, and what's happening-->
+            <div class = "detailyStuff">
         <br><div id="headi">
             <p>The details:</p>
             <ul>
@@ -94,8 +113,9 @@
             <!--The link to the club list and times-->
             <p><a href="https://docs.google.com/viewerng/viewer?url=https://www.lcps.org//cms/lib/VA01000195/Centricity/Domain/17347/2019-20+Club+Poster.pdf">For more information about the club, click here:</a></p>
         </div>
-        
+        </div>
             <!--Ways to help-->
+            <div class = "wayHlpd">
             <div id = "ways-help">
                 <p>These are some ways to help the spiritual community by:</p>
                     <table>
@@ -126,8 +146,10 @@
                         </tbody>
                     </table>
             </div>
-        
+            </div>
+            
         <!--The links to the songs-->
+        <div class = "happySong">
         <div id="songs">
             <p>Here are some songs to remember who God is, and why we need him.</p>
             <ul>
@@ -152,6 +174,6 @@
             <li><a href="https://www.youtube.com/watch?v=hrM-Bkm4c_I">A thousand years: by Christina Perri</a></li>
         </ul>
         </div>
-                    </div>
+        </div>
     </body>
 </html>
